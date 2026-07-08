@@ -3557,7 +3557,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1781319834622784912, guid: 3bbffec811d49c74fa5b2c827500ebf3, type: 3}
       propertyPath: m_text
-      value: Discount-Free Automotives
+      value: Quest Completion Area
       objectReference: {fileID: 0}
     - target: {fileID: 6517056125451012124, guid: 3bbffec811d49c74fa5b2c827500ebf3, type: 3}
       propertyPath: m_Pivot.x
@@ -3839,7 +3839,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 2a41b3a4c3ed6c24cae14d3759d5e708, type: 2}
     - target: {fileID: 1708576647234818529, guid: 6bcbd75a4bd4dba45802087238127d31, type: 3}
       propertyPath: npcName
-      value: Rob - Sales
+      value: Rob - Quest Rewarder
       objectReference: {fileID: 0}
     - target: {fileID: 1708576647234818529, guid: 6bcbd75a4bd4dba45802087238127d31, type: 3}
       propertyPath: dialogBackButton
@@ -3851,15 +3851,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1708576647234818529, guid: 6bcbd75a4bd4dba45802087238127d31, type: 3}
       propertyPath: dialog.Array.size
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1708576647234818529, guid: 6bcbd75a4bd4dba45802087238127d31, type: 3}
       propertyPath: 'dialog.Array.data[0]'
-      value: No Sir, I'm sorry. We do no accept Monopoly Money here.
+      value: You finished the Ultimate Quest
       objectReference: {fileID: 0}
     - target: {fileID: 1708576647234818529, guid: 6bcbd75a4bd4dba45802087238127d31, type: 3}
       propertyPath: 'dialog.Array.data[1]'
-      value: You say you got this from a guy by bringing him moldy pizza?
+      value: Here is your prize!
       objectReference: {fileID: 0}
     - target: {fileID: 1708576647234818529, guid: 6bcbd75a4bd4dba45802087238127d31, type: 3}
       propertyPath: 'dialog.Array.data[2]'

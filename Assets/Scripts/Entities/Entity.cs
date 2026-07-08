@@ -17,7 +17,7 @@ public class Entity : MonoBehaviour
     [SerializeField] private GameObject[] entityLights;
     [SerializeField] private GameObject[] entityDamageLights;
 
-    public float moveSpeed = 2.0f;
+    public float moveSpeed = 10f;
     public float runSpeed = 5.0f;
     public float jumpForce = 2.5f;
     public float attackRate = 2f;
@@ -204,10 +204,10 @@ public class Entity : MonoBehaviour
     {
         if(curState != EStates.dead && curState != EStates.disabled && !pushing){
             //Check if Jump is Possible
-            if (curState != EStates.falling)
-            {
+            //if (curState != EStates.falling)
+            //{
                 rigid.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
-            }
+            //}
         }
     }
 
