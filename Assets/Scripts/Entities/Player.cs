@@ -106,6 +106,17 @@ public class Player : Entity
     public void OnRunButton(InputAction.CallbackContext context)
     {
         running = context.ReadValueAsButton();
+	runSpeed = 5f;
+    }
+    public void OnDoubleRunButton(InputAction.CallbackContext context)
+    {
+        running = context.ReadValueAsButton();
+	runSpeed = 50f;
+    }
+    public void OnTripleRunButton(InputAction.CallbackContext context)
+    {
+        running = context.ReadValueAsButton();
+	runSpeed = 150f;
     }
     public void OnPushButton(InputAction.CallbackContext context)
     {

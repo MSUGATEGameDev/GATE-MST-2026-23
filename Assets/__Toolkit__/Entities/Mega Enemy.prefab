@@ -167,7 +167,7 @@ GameObject:
   - component: {fileID: 105302128530794667}
   - component: {fileID: 8016308206379201931}
   m_Layer: 10
-  m_Name: Enemy
+  m_Name: Mega Enemy
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -183,8 +183,8 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 2.79274, y: 0, z: -1.12636}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 3, y: 3, z: 3}
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 285261451992317474}
   - {fileID: 1427399140183265540}
@@ -227,17 +227,17 @@ MonoBehaviour:
   - {fileID: 3706973930563706016}
   - {fileID: 4037124449677839204}
   - {fileID: 504301732996946570}
-  moveSpeed: 2
-  runSpeed: 3
-  jumpForce: 2.5
-  attackRate: 1
+  moveSpeed: 10
+  runSpeed: 30
+  jumpForce: 10
+  attackRate: 7
   attackableLayers:
     serializedVersion: 2
     m_Bits: 256
-  attackRadius: 0.5
-  attackDamage: 20
-  running: 0
-  pushing: 0
+  attackRadius: 15
+  attackDamage: 50
+  running: 1
+  pushing: 1
   curState: 1
   disabled: 0
   healthBarHolder: {fileID: 4337485556607604073}
@@ -334,8 +334,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Health
   _teamID: 1
-  maxHealth: 100
-  startHealth: 100
+  maxHealth: 2000
+  startHealth: 2000
   invincible: 0
   hasLives: 0
   maxLives: 3

@@ -1312,7 +1312,7 @@ MonoBehaviour:
     a menu page.'
   buttonType: 1
   pageToOpen: {fileID: 0}
-  sceneToOpen: Template Level
+  sceneToOpen: Main Scene
   objectsToShow: []
   objectsToHide: []
 --- !u!1 &539540605
@@ -2000,10 +2000,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Created By - Your Name\nWritten By - Your Name\n\nGame Template By: \nToastid
-    Waffel & MedievalApple\n(toastidwaffel.com & medievalapple.net)\n\nModels By:\nToastid
-    Waffel\nMedieval Apple\nBenjaTheMaker (Unity Asset Store)\nITHappy (Unity Asset
-    Store)\nThePolyNestLab (Unity Asset Store)\nDHILRUBA (Unity Asset Store)\n"
+  m_text: "Created By - Grant Emiliani\nWritten By - Grant Emiliani\n\nGame Template
+    By: \nToastid Waffel & MedievalApple\n(toastidwaffel.com & medievalapple.net)\n\nModels
+    By:\nToastid Waffel\nMedieval Apple\nBenjaTheMaker (Unity Asset Store)\nITHappy
+    (Unity Asset Store)\nThePolyNestLab (Unity Asset Store)\nDHILRUBA (Unity Asset
+    Store)\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -3025,63 +3026,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1657297477}
   m_CullTransparentMesh: 1
---- !u!1001 &1935728888
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 8510638091606785855, guid: b9949ae1547143b49bf553a997621aa2, type: 3}
-      propertyPath: m_Name
-      value: LaserDoor2
-      objectReference: {fileID: 0}
-    - target: {fileID: 9029731462182675845, guid: b9949ae1547143b49bf553a997621aa2, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 493.11246
-      objectReference: {fileID: 0}
-    - target: {fileID: 9029731462182675845, guid: b9949ae1547143b49bf553a997621aa2, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.000009480089
-      objectReference: {fileID: 0}
-    - target: {fileID: 9029731462182675845, guid: b9949ae1547143b49bf553a997621aa2, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -48.398876
-      objectReference: {fileID: 0}
-    - target: {fileID: 9029731462182675845, guid: b9949ae1547143b49bf553a997621aa2, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 9029731462182675845, guid: b9949ae1547143b49bf553a997621aa2, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0.000000021855694
-      objectReference: {fileID: 0}
-    - target: {fileID: 9029731462182675845, guid: b9949ae1547143b49bf553a997621aa2, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9029731462182675845, guid: b9949ae1547143b49bf553a997621aa2, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9029731462182675845, guid: b9949ae1547143b49bf553a997621aa2, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9029731462182675845, guid: b9949ae1547143b49bf553a997621aa2, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9029731462182675845, guid: b9949ae1547143b49bf553a997621aa2, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: b9949ae1547143b49bf553a997621aa2, type: 3}
 --- !u!1 &2056082709
 GameObject:
   m_ObjectHideFlags: 0
@@ -3354,4 +3298,3 @@ SceneRoots:
   - {fileID: 2115100794}
   - {fileID: 2056082713}
   - {fileID: 173055980}
-  - {fileID: 1935728888}
