@@ -2765,11 +2765,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2385583308932522055, guid: b2ebd115d4b397a419d1a5f6643d1acd, type: 3}
       propertyPath: objectsToActivate.Array.size
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2385583308932522055, guid: b2ebd115d4b397a419d1a5f6643d1acd, type: 3}
       propertyPath: objectsToDeactivate.Array.size
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2385583308932522055, guid: b2ebd115d4b397a419d1a5f6643d1acd, type: 3}
       propertyPath: 'objectsToActivate.Array.data[0]'
