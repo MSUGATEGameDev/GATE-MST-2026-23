@@ -1273,15 +1273,15 @@ MonoBehaviour:
   - {fileID: 3706973930563706016}
   - {fileID: 4037124449677839204}
   - {fileID: 504301732996946570}
-  moveSpeed: 2
-  runSpeed: 5
-  jumpForce: 100
-  attackRate: 1
+  moveSpeed: 10
+  runSpeed: 30
+  jumpForce: 12
+  attackRate: 10
   attackableLayers:
     serializedVersion: 2
     m_Bits: 1024
-  attackRadius: 0.5
-  attackDamage: 25
+  attackRadius: 3
+  attackDamage: 200
   running: 0
   pushing: 0
   curState: 1
@@ -1559,7 +1559,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_ActionId: d8617262-fcbb-4e3c-8210-c5e4c7be5543
+    m_ActionId: d6e300fb-b94a-4995-8084-08147df48c71
     m_ActionName: 'Player/Triple Run[/Keyboard/f]'
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
@@ -1579,8 +1579,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Health
   _teamID: 0
-  maxHealth: 100
-  startHealth: 100
+  maxHealth: 1000
+  startHealth: 1000
   invincible: 0
   hasLives: 0
   maxLives: 3

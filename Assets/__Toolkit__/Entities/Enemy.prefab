@@ -227,8 +227,8 @@ MonoBehaviour:
   - {fileID: 3706973930563706016}
   - {fileID: 4037124449677839204}
   - {fileID: 504301732996946570}
-  moveSpeed: 2
-  runSpeed: 3
+  moveSpeed: 5
+  runSpeed: 20
   jumpForce: 2.5
   attackRate: 1
   attackableLayers:
