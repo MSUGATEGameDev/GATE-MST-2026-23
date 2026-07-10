@@ -3838,8 +3838,16 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2100000, guid: 2a41b3a4c3ed6c24cae14d3759d5e708, type: 2}
     - target: {fileID: 1708576647234818529, guid: 6bcbd75a4bd4dba45802087238127d31, type: 3}
+      propertyPath: toggle
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1708576647234818529, guid: 6bcbd75a4bd4dba45802087238127d31, type: 3}
       propertyPath: npcName
       value: Rob - Quest Rewarder
+      objectReference: {fileID: 0}
+    - target: {fileID: 1708576647234818529, guid: 6bcbd75a4bd4dba45802087238127d31, type: 3}
+      propertyPath: deactivates
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1708576647234818529, guid: 6bcbd75a4bd4dba45802087238127d31, type: 3}
       propertyPath: dialogBackButton
@@ -3855,7 +3863,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1708576647234818529, guid: 6bcbd75a4bd4dba45802087238127d31, type: 3}
       propertyPath: 'dialog.Array.data[0]'
-      value: You finished the Ultimate Quest
+      value: You finished the Ultimate Quest!
       objectReference: {fileID: 0}
     - target: {fileID: 1708576647234818529, guid: 6bcbd75a4bd4dba45802087238127d31, type: 3}
       propertyPath: 'dialog.Array.data[1]'
@@ -3968,7 +3976,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 1c8a0ca99838d5547baebb99ea9361bb, type: 2}
     - target: {fileID: 7460507922178101452, guid: 6bcbd75a4bd4dba45802087238127d31, type: 3}
       propertyPath: m_Name
-      value: Car Salesman
+      value: Quest Rewarder
       objectReference: {fileID: 0}
     - target: {fileID: 7500033416372071229, guid: 6bcbd75a4bd4dba45802087238127d31, type: 3}
       propertyPath: m_Navigation.m_Mode
