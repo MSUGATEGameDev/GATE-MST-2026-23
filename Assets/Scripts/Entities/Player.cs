@@ -116,7 +116,7 @@ public class Player : Entity
     public void OnTripleRunButton(InputAction.CallbackContext context)
     {
         running = context.ReadValueAsButton();
-	runSpeed = 150f;
+	    runSpeed = 150f;
     }
     public void OnPushButton(InputAction.CallbackContext context)
     {
@@ -131,6 +131,7 @@ public class Player : Entity
                 setPlayerLight(Color.green, 2.0f);
                 anim.Play("TutBotPushButton");
                 triggerInRange.Activate();
+
             }
         }
 
@@ -221,7 +222,7 @@ public class Player : Entity
         Time.timeScale = 1.0f;
         SceneManager.LoadScene("Menu");
     }
-
+    
     List<GameObject> meshesForReassembly = new();
     List<Transform> reassemblyPoints = new();
 
@@ -230,6 +231,7 @@ public class Player : Entity
         if(curState != EStates.dead)
         {
             base.Die();
+            
             if (meshesForReassembly.Count == 0)
             {
                 foreach (MeshRenderer mr in GetComponentsInChildren<MeshRenderer>())
@@ -331,6 +333,7 @@ public class Player : Entity
         GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezeRotation;
         anim.enabled = true;
         curState = EStates.idle;
+        anim.Play("TutBotIdle");
     }
     /// <summary>
     /// Puts the player in the spawn point.
